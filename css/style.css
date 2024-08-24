@@ -1,0 +1,25 @@
+.abc
+{
+  color: red;
+  background-color: aqua;
+}
+
+
+
+p > a{  
+  color: green;
+}
+
+div a{
+  color: green;
+}
+
+ul a{
+  color: red;
+}
+
+input[type="text"]
+{
+  color: red;
+ 
+}
