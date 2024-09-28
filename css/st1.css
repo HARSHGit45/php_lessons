@@ -1,0 +1,29 @@
+.pd{
+  padding: 20 20;
+  margin: 20 20;
+
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+
+  width: 500px;
+
+  text-align: center;
+}
+
+
+.p1,.p2{
+  margin: 40 40;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 100px;
+  width: 300px;
+
+}
+
+*{
+  
+  box-sizing: border-box;
+
+}
