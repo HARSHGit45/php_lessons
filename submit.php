@@ -1,6 +1,7 @@
 
 <?php
    
+   session_start();
 
    $db_host = "127.0.0.1"; // or 'localhost'
    $db_usn = "root";

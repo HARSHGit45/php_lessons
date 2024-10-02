@@ -1,6 +1,8 @@
 <?php
 
 
+session_start();
+
 $db_host="127.0.0.1";
 $db_user= "root";
 $db_pss="";
@@ -37,8 +39,11 @@ $row = mysqli_fetch_assoc($result);
 if($row){
   echo "hello " . $row['phone']."<br>";
 
-  setcookie("email",$row['email'],time()+3600);
-  setcookie("phn",$row['phone'],time()+3600);
+$_SESSION['email']= $row['email'];
+$_SESSION['phn']= $row['phone'];
+
+  //setcookie("email",$row['email'],time()+3600);
+ // setcookie("phn",$row['phone'],time()+3600);
 
 ?>
 <a href="dashboard.php">Click here</a>

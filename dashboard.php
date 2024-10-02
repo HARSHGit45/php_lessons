@@ -1,8 +1,10 @@
 <?php
 
+session_start();
 
-$ml = $_COOKIE['email'];
-$phn = $_COOKIE['phn'];
+
+$ml = $_SESSION['email'];
+$phn = $_SESSION['phn'];
 
 
 echo "hello" . $ml . " having phone no " . $phn ."";
